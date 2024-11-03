@@ -6,5 +6,6 @@ export interface Movement {
   difficulty: 'Iniciante' | 'Intermediário' | 'Avançado';
   defaultReps: number;
   repUnit: string;
+  category: string;
 }
 
